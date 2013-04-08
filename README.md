@@ -1,5 +1,7 @@
 A command line tool to read text with Microsoft Speech API (SAPI), written by Brook Hong in 2008.
 
+Pre-built binary at http://sharing-from-brook.16002.n6.nabble.com/file/n4967530/tts.zip
+
 # Usage
     tts [options] [text_to_read]
         -h       show this message.
