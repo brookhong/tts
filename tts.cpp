@@ -32,6 +32,14 @@
 #include <queue>
 #include <string>
 #include <exception>
+
+FILE _iob[] = {*stdin, *stdout, *stderr};
+
+extern "C" FILE * __cdecl __iob_func(void)
+{
+    return _iob;
+}
+
 extern "C"
 {
     int wav2mp3(char*inPath,char*outPath);

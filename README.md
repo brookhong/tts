@@ -50,4 +50,4 @@ Pre-built binary at http://sharing-from-brook.16002.n6.nabble.com/file/n4967530/
 
 # Build
 
-    cl tts.cpp lame.lib libmp3lame-static.lib mpglib-static.lib
+    cl tts.cpp lame.lib libmp3lame-static.lib mpglib-static.lib legacy_stdio_definitions.lib
